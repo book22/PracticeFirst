@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 2rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+header a {
+  width: 10rem;
+}
+
+header a img {
+  width: 100%;
+  height: 100%;
+  min-width: 100px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  padding: 1rem 2rem 1rem;
+}
+
+main .bicycle-img img {
+  width: 100%;
+}
+
+main section {
+  padding: 2rem 2rem 3rem;
+}
+
+main section h1 {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+main section .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 2rem;
+  text-align: left;
+}
+
+@media (max-width: 680px) {
+  main section .content {
+    display: block;
+    text-align: center;
+  }
+  main section .content .text {
+    text-align: left;
+  }
+}
+
+main section .content img {
+  width: 25%;
+  border-radius: 50%;
+  height: 25%;
+}
+
+main section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 680px) {
+  main section ul {
+    display: block;
+  }
+}
+
+main section ul li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+main section ul li img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
